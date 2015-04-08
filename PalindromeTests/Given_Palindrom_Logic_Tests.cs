@@ -21,7 +21,7 @@ namespace PalindromeTests
         {
             steps = new PalindromTestSteps();
         }
-        
+
         [TestMethod]
         public void When_Word_Is_MOM_Result_Should_Be_True()
         {
@@ -49,11 +49,31 @@ namespace PalindromeTests
         [TestMethod]
         public void When_Word_Is_SOME_REALLY_LONG_STRING_Not_A_Palindrome_Result_Should_Be_False()
         {
-            string someReallyLongString = null;
+            //Added really long string instead of null string
+            string someReallyLongString = "Once upon a time, there was a gigantic dragon";
 
             steps.GivenAValueOf(someReallyLongString);
             steps.WhenPalidromeCheckIsCalled();
             steps.ThenItShouldNOTBeAPalindrom();
+        }
+
+        //Added to cover for null strings
+        [TestMethod]
+        public void When_Word_Is_Null_Result_Should_Be_False()
+        {
+            string nullString = null;
+            steps.GivenAValueOf(nullString);
+            steps.WhenPalidromeCheckIsCalled();
+            steps.ThenItShouldNOTBeAPalindrom();
+        }
+
+        [TestMethod]
+        public void When_Word_Is_Palindrome_With_Spacing_And_Punctuation_Result_Should_Be_False()
+        {
+            string punctuationPalindrome = "\"Slang is not suet, is it?\" Euston signals.";
+            steps.GivenAValueOf(punctuationPalindrome);
+            steps.WhenPalidromeCheckIsCalled();
+            steps.ThenItShouldBeAPalindrome();
         }
     }
 }

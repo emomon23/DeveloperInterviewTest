@@ -1,0 +1,5 @@
+C:\Clasen Edits\StringUtilities\bin\Debug\StringUtilities.dll
+C:\Clasen Edits\StringUtilities\bin\Debug\StringUtilities.pdb
+C:\Clasen Edits\StringUtilities\obj\Debug\StringUtilities.csprojResolveAssemblyReference.cache
+C:\Clasen Edits\StringUtilities\obj\Debug\StringUtilities.dll
+C:\Clasen Edits\StringUtilities\obj\Debug\StringUtilities.pdb

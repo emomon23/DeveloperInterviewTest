@@ -1,0 +1,7 @@
+C:\Clasen Edits\PalindromeTests\bin\Debug\PalindromeTests.dll
+C:\Clasen Edits\PalindromeTests\bin\Debug\PalindromeTests.pdb
+C:\Clasen Edits\PalindromeTests\bin\Debug\StringUtilities.dll
+C:\Clasen Edits\PalindromeTests\bin\Debug\StringUtilities.pdb
+C:\Clasen Edits\PalindromeTests\obj\Debug\PalindromeTests.csprojResolveAssemblyReference.cache
+C:\Clasen Edits\PalindromeTests\obj\Debug\PalindromeTests.dll
+C:\Clasen Edits\PalindromeTests\obj\Debug\PalindromeTests.pdb
