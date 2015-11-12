@@ -6,4 +6,15 @@ Instructions:
 4. Enter a target directory where you want to place the source on you local machine (eg. c:\iEmosoft\TestingAssignment)
 5. Click clone (If you get an error message, try 1 more time)
 6. Locate and open in Visual Studio, the PalindroneTests.sln solution, found in the target directory you specified in step #4.  
-7. View the comments in the file PalindromeTests/Given_Palindrom_Logic_Tests.cs and complete the assignment
+
+
+Run the tests:
+ - After you've open the solution in Visual Studio, Select, from the menu bar, TEST -> Run -> All Tests
+ - Two of these tests pass and two of them fail.
+ - If the Test Explorer doesn't display, select TEST -> Windows -> TestExplorer
+   
+The Assignment: 
+   - Get all of the tests passing in this code
+   - Write additional tests based on what you learned fixing this code
+   - Write any additional tests you can think of to increase code coverage
+
