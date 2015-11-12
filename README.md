@@ -9,9 +9,9 @@ Instructions:
 
 
 Run the tests:
- - After you've open the solution in Visual Studio, Select, from the menu bar, TEST -> Run -> All Tests
+ - After you've opened the solution in Visual Studio, Select from the menu bar, TEST -> Run -> All Tests
  - Two of these tests pass and two of them fail.
- - If the Test Explorer doesn't display, select TEST -> Windows -> TestExplorer
+ - If the Test Explorer doesn't display, select TEST -> Windows -> TestExplorer from the menu bar.
    
 The Assignment: 
    - Get all of the tests passing in this code
