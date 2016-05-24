@@ -22,7 +22,7 @@ namespace StringUtilities
                 backwordValue += value.Substring(i, 1);
             }
 
-            return value.Equals(backwordValue, StringComparison.CurrentCultureIgnoreCase);
+            return value.Equals(backwordValue, StringComparison.CurrentCulture);
         }
     }
 }
