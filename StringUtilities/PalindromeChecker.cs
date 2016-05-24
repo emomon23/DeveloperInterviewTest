@@ -12,7 +12,7 @@ namespace StringUtilities
         {
             if (string.IsNullOrEmpty(value))
             {
-                return true;
+                return false;
             }
 
             string backwordValue = "";
@@ -22,7 +22,7 @@ namespace StringUtilities
                 backwordValue += value.Substring(i, 1);
             }
 
-            return value.Equals(backwordValue, StringComparison.CurrentCulture);
+            return value.Equals(backwordValue, StringComparison.CurrentCultureIgnoreCase);
         }
     }
 }
