@@ -10,14 +10,19 @@ namespace StringUtilities
     {
         public static bool IsPalindrome(string value)
         {
+            if (string.IsNullOrEmpty(value))
+            {
+                return false;
+            }
+
             string backwordValue = "";
 
-            for (int i = 0; i < value.Length; i++)
+            for (int i = value.Length-1; i >= 0; i--)
             {
                 backwordValue += value.Substring(i, 1);
             }
 
-            return value == backwordValue;
+            return value.Equals(backwordValue, StringComparison.CurrentCultureIgnoreCase);
         }
     }
 }
