@@ -12,7 +12,7 @@ namespace StringUtilities
         {
             if (string.IsNullOrEmpty(value))
             {
-                return false;
+                return true;
             }
 
             string backwordValue = "";
