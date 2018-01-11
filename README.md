@@ -16,4 +16,5 @@ Run the tests:
 The Assignment: 
    - Get all of the tests passing in this code
    - Write any additional tests you can think of to increase code coverage
+   - Fork the code and create a pull request
 
