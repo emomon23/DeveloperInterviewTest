@@ -10,11 +10,7 @@ namespace StringUtilities
     {
         public static bool IsPalindrome(string value)
         {
-            if (string.IsNullOrEmpty(value))
-            {
-                return false;
-            }
-
+          
             string backwordValue = "";
 
             for (int i = value.Length-1; i >= 0; i--)
@@ -22,7 +18,7 @@ namespace StringUtilities
                 backwordValue += value.Substring(i, 1);
             }
 
-            return value.Equals(backwordValue, StringComparison.CurrentCultureIgnoreCase);
+            return value == backwordValue;
         }
     }
 }
