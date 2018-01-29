@@ -9,7 +9,8 @@ Instructions:
 
 
 Run the tests:
- - After you've opened the solution in Visual Studio, Select from the menu bar, TEST -> Run -> All Tests
+ - Open and BUILD the solution in Visual Studio.
+ - After you've built the solution, select from the menu bar, TEST -> Run -> All Tests
  - Two of these tests pass and two of them fail.
  - If the Test Explorer doesn't display, select TEST -> Windows -> TestExplorer from the menu bar.
    
