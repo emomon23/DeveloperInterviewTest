@@ -111,10 +111,19 @@ namespace PalindromeTests
             steps.WhenPalidromeCheckIsCalled();
             steps.ThenItShouldBeAPalindrome();
         }
+
         [TestMethod]
         public void Multi_Word_Palindromes_Are_Not_Affected_By_Trailing_or_Leading_Whitespace_Result_Should_Be_True()
         {
             steps.GivenAValueOf("     Able was I ere I saw Elba   ");
+            steps.WhenPalidromeCheckIsCalled();
+            steps.ThenItShouldBeAPalindrome();
+        }
+
+        [TestMethod]
+        public void A_Single_Letter_Word_Is_A_Palindrome_For_This_test_Result_Should_Be_True()
+        {
+            steps.GivenAValueOf("a");
             steps.WhenPalidromeCheckIsCalled();
             steps.ThenItShouldBeAPalindrome();
         }
