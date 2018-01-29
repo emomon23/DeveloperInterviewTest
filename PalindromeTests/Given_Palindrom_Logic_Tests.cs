@@ -49,7 +49,7 @@ namespace PalindromeTests
         [TestMethod]
         public void When_Word_Is_SOME_REALLY_LONG_STRING_Not_A_Palindrome_Result_Should_Be_False()
         {
-            string someReallyLongString = null;
+            string someReallyLongString = "This is deffinatly not a plaindrome: so there :-p";
 
             steps.GivenAValueOf(someReallyLongString);
             steps.WhenPalidromeCheckIsCalled();

@@ -10,7 +10,7 @@ namespace StringUtilities
     {
         public static bool IsPalindrome(string value)
         {
-            if (Valid.Word(value)) 
+            if (value.IsNotEmpty()) 
             {
                 value = value.Trim();
 
