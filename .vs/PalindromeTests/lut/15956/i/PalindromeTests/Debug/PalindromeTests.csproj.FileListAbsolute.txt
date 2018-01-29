@@ -1,0 +1,6 @@
+C:\Users\aaron\Source\iEmosoft\MSTestingAssignment\.vs\PalindromeTests\lut\0\b\PalindromeTests\bin\Debug\PalindromeTests.dll
+C:\Users\aaron\Source\iEmosoft\MSTestingAssignment\.vs\PalindromeTests\lut\0\b\PalindromeTests\bin\Debug\PalindromeTests.pdb
+C:\Users\aaron\Source\iEmosoft\MSTestingAssignment\.vs\PalindromeTests\lut\0\i\PalindromeTests\Debug\PalindromeTests.csprojResolveAssemblyReference.cache
+C:\Users\aaron\Source\iEmosoft\MSTestingAssignment\.vs\PalindromeTests\lut\0\i\PalindromeTests\Debug\PalindromeTests.csproj.CoreCompileInputs.cache
+C:\Users\aaron\Source\iEmosoft\MSTestingAssignment\.vs\PalindromeTests\lut\0\i\PalindromeTests\Debug\PalindromeTests.dll
+C:\Users\aaron\Source\iEmosoft\MSTestingAssignment\.vs\PalindromeTests\lut\0\i\PalindromeTests\Debug\PalindromeTests.pdb

@@ -1,0 +1,5 @@
+C:\Users\aaron\Source\iEmosoft\MSTestingAssignment\.vs\PalindromeTests\lut\0\b\StringUtilities\bin\Debug\StringUtilities.dll
+C:\Users\aaron\Source\iEmosoft\MSTestingAssignment\.vs\PalindromeTests\lut\0\b\StringUtilities\bin\Debug\StringUtilities.pdb
+C:\Users\aaron\Source\iEmosoft\MSTestingAssignment\.vs\PalindromeTests\lut\0\i\StringUtilities\Debug\StringUtilities.csproj.CoreCompileInputs.cache
+C:\Users\aaron\Source\iEmosoft\MSTestingAssignment\.vs\PalindromeTests\lut\0\i\StringUtilities\Debug\StringUtilities.dll
+C:\Users\aaron\Source\iEmosoft\MSTestingAssignment\.vs\PalindromeTests\lut\0\i\StringUtilities\Debug\StringUtilities.pdb

@@ -10,15 +10,20 @@ namespace StringUtilities
     {
         public static bool IsPalindrome(string value)
         {
-          
-            string backwordValue = "";
-
-            for (int i = value.Length-1; i >= 0; i--)
+            if (Valid.Word(value)) 
             {
-                backwordValue += value.Substring(i, 1);
-            }
+                value = value.Trim();
 
-            return value == backwordValue;
+                string backwordValue = "";
+
+                for (int i = value.Length - 1; i >= 0; i--)
+                {
+                    backwordValue += value.Substring(i, 1).ToLower();
+                }
+
+                return value.ToLower() == backwordValue;
+            }
+            return false;
         }
     }
 }

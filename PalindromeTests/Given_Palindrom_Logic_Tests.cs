@@ -55,5 +55,68 @@ namespace PalindromeTests
             steps.WhenPalidromeCheckIsCalled();
             steps.ThenItShouldNOTBeAPalindrom();
         }
+
+        [TestMethod]
+        public void When_Word_Has_Leading_White_Space_But_Is_A_Palindrome_Result_Should_Be_True()
+        {
+            steps.GivenAValueOf("    RACECAR");
+            steps.WhenPalidromeCheckIsCalled();
+            steps.ThenItShouldBeAPalindrome();
+        }
+
+        [TestMethod]
+        public void When_Word_Has_Trailing_White_Space_But_Is_A_Palindrome_Result_Should_Be_True()
+        {
+            steps.GivenAValueOf("RACECAR      ");
+            steps.WhenPalidromeCheckIsCalled();
+            steps.ThenItShouldBeAPalindrome();
+        }
+
+        [TestMethod]
+        public void When_Word_Has_Leading_White_Space_But_Is_Not_A_Palindrome_Result_Should_Be_False()
+        {
+            steps.GivenAValueOf("    RACER");
+            steps.WhenPalidromeCheckIsCalled();
+            steps.ThenItShouldNOTBeAPalindrom();
+        }
+
+        [TestMethod]
+        public void When_Word_Has_Trailing_White_Space_But_Is_Not_A_Palindrome_Result_Should_Be_False()
+        {
+            steps.GivenAValueOf("RACER      ");
+            steps.WhenPalidromeCheckIsCalled();
+            steps.ThenItShouldNOTBeAPalindrom();
+        }
+
+        [TestMethod]
+        public void When_Word_Is_Empyty_It_Is_Not_A_Palindrome_Result_Should_Be_False()
+        {
+            steps.GivenAValueOf("");
+            steps.WhenPalidromeCheckIsCalled();
+            steps.ThenItShouldNOTBeAPalindrom();
+        }
+
+        [TestMethod]
+        public void When_Word_Is_Whitespace_It_Is_Not_A_Palindrome_Result_Should_Be_False()
+        {
+            steps.GivenAValueOf(" ");
+            steps.WhenPalidromeCheckIsCalled();
+            steps.ThenItShouldNOTBeAPalindrom();
+        }
+
+        [TestMethod]
+        public void A_Palindrome_Can_Be_Multiple_Words_Result_Should_Be_True()
+        {
+            steps.GivenAValueOf("Able was I ere I saw Elba");
+            steps.WhenPalidromeCheckIsCalled();
+            steps.ThenItShouldBeAPalindrome();
+        }
+        [TestMethod]
+        public void Multi_Word_Palindromes_Are_Not_Affected_By_Trailing_or_Leading_Whitespace_Result_Should_Be_True()
+        {
+            steps.GivenAValueOf("     Able was I ere I saw Elba   ");
+            steps.WhenPalidromeCheckIsCalled();
+            steps.ThenItShouldBeAPalindrome();
+        }
     }
 }
