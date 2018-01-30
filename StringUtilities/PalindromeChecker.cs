@@ -20,10 +20,24 @@ namespace StringUtilities
                 {
                     backwordValue += value.Substring(i, 1).ToLower();
                 }
-
                 return value.ToLower() == backwordValue;
             }
             return false;
+        }
+    }
+
+    public static class StringExtension
+    {
+        public static Boolean IsNotEmpty(this String word)
+        {
+            if (!string.IsNullOrEmpty(word) && !string.IsNullOrWhiteSpace(word))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }
