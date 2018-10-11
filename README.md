@@ -1,6 +1,6 @@
 Prereqs:
 
-You will need to have Visual Studio installed on you machine as well as a GIT client.  You can get a free community edition of Visual Studio at https://visualstudio.microsoft.com/vs/community/
+You will need to have Visual Studio installed on your machine as well as a GIT client.  You can get a free community edition of Visual Studio at https://visualstudio.microsoft.com/vs/community/
 
 Git for windows can be downloaded from: http://git-scm.com/download/win
 
