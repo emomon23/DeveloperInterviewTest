@@ -10,7 +10,7 @@ Instructions:
 
 Run the tests:
  - Open and BUILD the solution in Visual Studio.
-   (you can get a free community version here: https://visualstudio.microsoft.com/vs/community/)
+      you can get a free community version here: https://visualstudio.microsoft.com/vs/community/
  - After you've built the solution, select from the menu bar, TEST -> Run -> All Tests
  - Two of these tests pass and two of them fail.
  - If the Test Explorer doesn't display, select TEST -> Windows -> TestExplorer from the menu bar.
