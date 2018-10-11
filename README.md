@@ -1,3 +1,9 @@
+Prereqs:
+
+You will need to have Visual Studio installed on you machine as well as a GIT client.  You can get a free community edition of Visual Studio at https://visualstudio.microsoft.com/vs/community/
+
+Git for windows can be downloaded from: http://git-scm.com/download/win
+
 Instructions:
 
 1. Download and install Git for windows from http://git-scm.com/download/win
@@ -10,7 +16,6 @@ Instructions:
 
 Run the tests:
  - Open and BUILD the solution in Visual Studio.
-   Note: You can get a free community version here: https://visualstudio.microsoft.com/vs/community/
  - After you've built the solution, select from the menu bar, TEST -> Run -> All Tests
  - Two of these tests pass and two of them fail.
  - If the Test Explorer doesn't display, select TEST -> Windows -> TestExplorer from the menu bar.
