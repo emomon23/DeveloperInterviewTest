@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs/PalindromeTests/v16/TestStore/0
+bin/
+obj/
+/.vs/PalindromeTests/v16/.suo
