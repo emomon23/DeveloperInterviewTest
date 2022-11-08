@@ -55,5 +55,15 @@ namespace PalindromeTests
             steps.WhenPalidromeCheckIsCalled();
             steps.ThenItShouldNOTBeAPalindrom();
         }
-    }
+
+		[TestMethod]
+		public void When_Word_Has_NonAlphaNumeric_Chars_And_Is_A_Palindrome_Result_Should_Be_True()
+		{
+			string someReallyLongString = "A man, a plan, a canal: Panama";
+
+			steps.GivenAValueOf(someReallyLongString);
+			steps.WhenPalidromeCheckIsCalled();
+			steps.ThenItShouldBeAPalindrome();
+		}
+	}
 }
