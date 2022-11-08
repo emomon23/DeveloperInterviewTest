@@ -1,0 +1,10 @@
+C:\Users\patrick.graham\Repositories\MSTestingAssignment-patrick-graham\PalindromeTests\bin\Debug\PalindromeTests.dll
+C:\Users\patrick.graham\Repositories\MSTestingAssignment-patrick-graham\PalindromeTests\bin\Debug\PalindromeTests.pdb
+C:\Users\patrick.graham\Repositories\MSTestingAssignment-patrick-graham\PalindromeTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\patrick.graham\Repositories\MSTestingAssignment-patrick-graham\PalindromeTests\bin\Debug\StringUtilities.dll
+C:\Users\patrick.graham\Repositories\MSTestingAssignment-patrick-graham\PalindromeTests\bin\Debug\StringUtilities.pdb
+C:\Users\patrick.graham\Repositories\MSTestingAssignment-patrick-graham\PalindromeTests\obj\Debug\PalindromeTests.csprojAssemblyReference.cache
+C:\Users\patrick.graham\Repositories\MSTestingAssignment-patrick-graham\PalindromeTests\obj\Debug\PalindromeTests.csproj.CoreCompileInputs.cache
+C:\Users\patrick.graham\Repositories\MSTestingAssignment-patrick-graham\PalindromeTests\obj\Debug\PalindromeTests.csproj.CopyComplete
+C:\Users\patrick.graham\Repositories\MSTestingAssignment-patrick-graham\PalindromeTests\obj\Debug\PalindromeTests.dll
+C:\Users\patrick.graham\Repositories\MSTestingAssignment-patrick-graham\PalindromeTests\obj\Debug\PalindromeTests.pdb

@@ -50,8 +50,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Given_Palindrom_Logic_Tests.cs" />
-    <Compile Include="PalindromTestSteps.cs" />
+    <Compile Include="Given_Palindrome_Logic_Tests.cs" />
+    <Compile Include="PalindromeTestSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
