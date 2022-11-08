@@ -21,7 +21,7 @@ namespace PalindromeTests
         {
             steps = new PalindromTestSteps();
         }
-        
+
         [TestMethod]
         public void When_Word_Is_MOM_Result_Should_Be_True()
         {
@@ -41,7 +41,10 @@ namespace PalindromeTests
         [TestMethod]
         public void When_Word_Is_Dad_Result_Should_Be_True()
         {
-            steps.GivenAValueOf("Dad");
+            string testWordToCheck = "Dad";
+            testWordToCheck = testWordToCheck.ToLower();
+
+            steps.GivenAValueOf(testWordToCheck);
             steps.WhenPalidromeCheckIsCalled();
             steps.ThenItShouldBeAPalindrome();
         }
@@ -49,11 +52,43 @@ namespace PalindromeTests
         [TestMethod]
         public void When_Word_Is_SOME_REALLY_LONG_STRING_Not_A_Palindrome_Result_Should_Be_False()
         {
-            string someReallyLongString = null;
+            string someReallyLongString = "ThisIsSomeReallyLongStringThatNobodyWouldEverUse";
 
             steps.GivenAValueOf(someReallyLongString);
             steps.WhenPalidromeCheckIsCalled();
             steps.ThenItShouldNOTBeAPalindrom();
+        }
+
+        [TestMethod]
+        public void When_Word_Is_RaCeCaR_Result_Should_Be_True()
+        {
+            string testWordToCheck = "RaCeCaR";
+            testWordToCheck = testWordToCheck.ToLower();
+
+            steps.GivenAValueOf(testWordToCheck);
+            steps.WhenPalidromeCheckIsCalled();
+            steps.ThenItShouldBeAPalindrome();
+        }
+
+        [TestMethod]
+        public void When_Word_Is_Random_Characters_Result_Should_Be_False()
+        {
+            string testWordToCheck = "$%&*#$&%";
+            testWordToCheck = testWordToCheck.ToLower();
+
+            steps.GivenAValueOf(testWordToCheck);
+            steps.WhenPalidromeCheckIsCalled();
+            steps.ThenItShouldNOTBeAPalindrom();
+        }
+
+        [TestMethod]
+        public void When_Word_Is_Empty_String_Result_Should_Be_True()
+        {
+            string testWordToCheck = string.Empty;
+
+            steps.GivenAValueOf(testWordToCheck);
+            steps.WhenPalidromeCheckIsCalled();
+            steps.ThenItShouldBeAPalindrome();
         }
     }
 }

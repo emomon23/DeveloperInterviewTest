@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs/PalindromeTests/v16
+/PalindromeTests/bin/Debug
+/PalindromeTests/obj/Debug
+/StringUtilities/bin/Debug
+/StringUtilities/obj/Debug
