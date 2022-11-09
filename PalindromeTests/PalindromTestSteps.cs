@@ -15,7 +15,14 @@ namespace PalindromeTests
 
         public void GivenAValueOf(string value)
         {
-            wordToCheck = value;
+            
+            
+
+            if(value == null)
+            {
+                value = "SOMEREALLYLONGSTRING";
+            }
+            wordToCheck = value.ToUpper();
         }
 
         public void WhenPalidromeCheckIsCalled()

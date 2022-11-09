@@ -1,0 +1,10 @@
+C:\Database\Testing Assgn\MSTestingAssignment\PalindromeTests\bin\Debug\PalindromeTests.dll
+C:\Database\Testing Assgn\MSTestingAssignment\PalindromeTests\bin\Debug\PalindromeTests.pdb
+C:\Database\Testing Assgn\MSTestingAssignment\PalindromeTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Database\Testing Assgn\MSTestingAssignment\PalindromeTests\bin\Debug\StringUtilities.dll
+C:\Database\Testing Assgn\MSTestingAssignment\PalindromeTests\bin\Debug\StringUtilities.pdb
+C:\Database\Testing Assgn\MSTestingAssignment\PalindromeTests\obj\Debug\PalindromeTests.csproj.AssemblyReference.cache
+C:\Database\Testing Assgn\MSTestingAssignment\PalindromeTests\obj\Debug\PalindromeTests.csproj.CoreCompileInputs.cache
+C:\Database\Testing Assgn\MSTestingAssignment\PalindromeTests\obj\Debug\PalindromeTests.csproj.CopyComplete
+C:\Database\Testing Assgn\MSTestingAssignment\PalindromeTests\obj\Debug\PalindromeTests.dll
+C:\Database\Testing Assgn\MSTestingAssignment\PalindromeTests\obj\Debug\PalindromeTests.pdb
