@@ -55,5 +55,17 @@ namespace PalindromeTests
             steps.WhenPalidromeCheckIsCalled();
             steps.ThenItShouldNOTBeAPalindrom();
         }
+
+
+        [TestMethod]
+        public void testOne()
+        {
+            
+
+            steps.GivenAValueOf("Kayak");
+            steps.WhenPalidromeCheckIsCalled();
+            steps.ThenItShouldBeAPalindrome();
+        }
+
     }
 }

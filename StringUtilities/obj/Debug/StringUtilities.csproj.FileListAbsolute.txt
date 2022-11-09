@@ -1,0 +1,6 @@
+C:\Database\Testing Assgn\MSTestingAssignment\StringUtilities\bin\Debug\StringUtilities.dll
+C:\Database\Testing Assgn\MSTestingAssignment\StringUtilities\bin\Debug\StringUtilities.pdb
+C:\Database\Testing Assgn\MSTestingAssignment\StringUtilities\obj\Debug\StringUtilities.csproj.AssemblyReference.cache
+C:\Database\Testing Assgn\MSTestingAssignment\StringUtilities\obj\Debug\StringUtilities.csproj.CoreCompileInputs.cache
+C:\Database\Testing Assgn\MSTestingAssignment\StringUtilities\obj\Debug\StringUtilities.dll
+C:\Database\Testing Assgn\MSTestingAssignment\StringUtilities\obj\Debug\StringUtilities.pdb
