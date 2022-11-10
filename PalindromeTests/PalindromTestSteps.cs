@@ -28,7 +28,7 @@ namespace PalindromeTests
             Assert.IsTrue(isPalindrome, wordToCheck + " was not regarded as a palindrome as was expected");
         }
 
-        public void ThenItShouldNOTBeAPalindrom()
+        public void ThenItShouldNOTBeAPalindrome()
         {
             Assert.IsFalse(isPalindrome, wordToCheck + " was is regarded as a palindrome, and it should not be");
         }
